@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>CS:3640 Code 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div style="position: absolute; left: 0px; top: 0px; width: 100vw">
+        <div style="background-color: ffcd00; height: 80px">
+            <div style="display: inline-block; width: 100px"></div>
+            <img style="display: inline-block" src="img/Iowa.PNG" />
+            <div
+                style="display: inline-block;  font-size: 30px; font-weight:bold; position: relative; top: -60px; margin-left: 30px;line-height:10px;">
+                CS3640</div>
+        </div>
+        <div style="width: 100vw; height: 60px; margin-left:120px; margin-top: 30px;">
+            <div class='tabBtn' onclick="window.location.href='/'">Overview</div>
+            <div class='tabBtn'>Schedule</div>
+            <div class='tabBtn'>Announcements</div>
+            <img id='advert2' src="img/advert2.png" style="display: inline-block; position: absolute; height: 60px;"/>
+        </div>
+        <div style="width:100vw; height: 1px; background-color: #f3f3f3"></div>
+        <div style="width: 100vw; text-align: center">
+        <h1>
+            404, file <span id="filename">file.txt</span> not found
+        </h1>
+        
+    </div>
+    <script>
+        let elem = document.getElementById('filename');
+        elem.innerText = window.location.pathname;
+    </script>
+</body>
+
+</html>

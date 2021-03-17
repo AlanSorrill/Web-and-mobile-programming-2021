@@ -1,0 +1,59 @@
+ @keyframes advert2Scale {
+     from {
+         height: 0px;
+     }
+     to {
+         height: 60px;
+     }
+ }
+
+ #advert2 {
+     animation: advert2Scale 2s;
+ }
+
+ @keyframes advert1Scale {
+     from {
+         height: 0px;
+     }
+     to {
+         height: 400px;
+     }
+ }
+
+ #advert1 {
+     animation: advert1Scale 2s;
+ }
+
+ body {
+     font-family: Roboto, sans-serif;
+     overflow-x: hidden;
+ }
+
+ .tabBtn {
+     padding-top: 25px;
+     line-height: 10px;
+     font-size: 20px;
+     display: inline-block;
+     padding-left: 24px;
+     padding-right: 24px;
+     cursor: pointer;
+ }
+
+ h5, h5 {
+     font-size: 1.4rem;
+     line-height: 1.25;
+     font-weight: 500;
+     margin-top: 0;
+     margin-bottom: .325rem;
+ }
+
+ p {
+     line-height: 1.7;
+     font-size: 1.2rem;
+     margin-top: 0;
+     margin-bottom: 1.05rem;
+ }
+
+ a {
+     color: #151515;
+ }
